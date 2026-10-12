@@ -1,0 +1,12 @@
+#!/bin/sh
+# Starts a story from an av install: the Frotz in lib/ plays the story file
+# next to this script. Saved games go to ~/.local/share/<story>, outside the
+# install folder (av replaces that on updates). The story is named after this
+# script: zork1 plays zork1.z3.
+# av links ~/.local/bin/<story> to this file, so follow that link first.
+self=$(readlink "$0" 2>/dev/null || printf '%s' "$0")
+dir=$(cd "$(dirname "$self")" && pwd)
+story=$(basename "$self")
+saves="${XDG_DATA_HOME:-$HOME/.local/share}/$story"
+mkdir -p "$saves" && cd "$saves" || exit 1
+exec "$dir/lib/frotz" "$dir/$story.z3" "$@"
