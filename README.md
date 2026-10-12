@@ -4,10 +4,12 @@ Infocom's Zork trilogy, packaged to play in a terminal: each story file
 with [Frotz](https://gitlab.com/DavidGriffith/frotz) 2.55, the Z-machine
 interpreter, built for Linux and macOS.
 
-- **Zork I: The Great Underground Empire** (1980), by Marc Blank, Dave
-  Lebling, Bruce Daniels and Tim Anderson
-- **Zork II: The Wizard of Frobozz** (1981), by Dave Lebling and Marc Blank
-- **Zork III: The Dungeon Master** (1982), by Dave Lebling and Marc Blank
+- **Zork I: The Great Underground Empire** (1980)
+- **Zork II: The Wizard of Frobozz** (1981)
+- **Zork III: The Dungeon Master** (1982)
+
+All three by Marc Blank, Dave Lebling, Bruce Daniels and Tim Anderson,
+published by Infocom (as each story's README credits them).
 
 ## Where the files come from
 
