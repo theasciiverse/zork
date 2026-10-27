@@ -10,7 +10,7 @@
 > | Zork III: The Dungeon Master | `av install zork3` | `./zork3` |
 >
 > Start one with `av play <name>`, or download its archive for your system from
-> this repository's Releases and run it from there (`.exe` on Windows).
+> this repository's Releases and run it from there.
 >
 > The original README follows.
 
