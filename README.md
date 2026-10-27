@@ -1,3 +1,19 @@
+> **Play it with Asciiverse.** With [av](https://asciiverse.sh), the Asciiverse
+> client:
+>
+> Each game installs on its own:
+>
+> | Game | With av | From a release archive |
+> |---|---|---|
+> | Zork I: The Great Underground Empire | `av install zork1` | `./zork1` |
+> | Zork II: The Wizard of Frobozz | `av install zork2` | `./zork2` |
+> | Zork III: The Dungeon Master | `av install zork3` | `./zork3` |
+>
+> Start one with `av play <name>`, or download its archive for your system from
+> this repository's Releases and run it from there (`.exe` on Windows).
+>
+> The original README follows.
+
 # Zork I, II and III for Asciiverse
 
 Infocom's Zork trilogy, packaged to play in a terminal: each story file
