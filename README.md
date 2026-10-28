@@ -9,8 +9,7 @@
 > | Zork II: The Wizard of Frobozz | `av install zork2` | `./zork2` |
 > | Zork III: The Dungeon Master | `av install zork3` | `./zork3` |
 >
-> Start one with `av play <name>`, or download its archive for your system from
-> this repository's Releases and run it from there.
+> Start one with `av play <name>`.
 >
 > The original README follows.
 
